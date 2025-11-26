@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pondicherry Trip Blog</title>
+  <meta name="description" content="A detailed Pondicherry trip blog — travel notes, itinerary, food, tips and photos." />
+  <style>
+    :root{--accent:#2c6f6b;--muted:#6b7280;--bg:#fbfbfb;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.6;margin:0;background:var(--bg);color:#111}
+    .container{max-width:900px;margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    h1{margin:0;font-size:clamp(1.6rem,2.4vw,2.2rem);color:var(--accent)}
+    nav{display:flex;gap:12px;flex-wrap:wrap}
+    nav a{color:var(--muted);text-decoration:none;font-size:0.95rem}
+    .hero{background:linear-gradient(180deg,rgba(44,111,107,0.06),transparent);padding:18px;border-radius:12px;margin-top:18px}
+    .meta{color:var(--muted);font-size:0.95rem;margin-top:6px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:22px}
+    @media(max-width:940px){.grid{grid-template-columns:1fr}}
+    article{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(15,15,15,0.05)}
+    aside{position:sticky;top:20px;height:fit-content;padding:16px;background:linear-gradient(180deg,#fff, #fbfffe);border-radius:12px;border:1px solid #eef6f5}
+    h2{color:#0f1724;margin-top:0}
+    section{margin-bottom:18px}
+    .img-placeholder{width:100%;height:200px;background:linear-gradient(90deg,#f0f3f2,#e9f0ef);display:flex;align-items:center;justify-content:center;border-radius:8px;color:#94a3a1}
+    ul.check{padding-left:1.1rem}
+    footer{text-align:center;color:var(--muted);font-size:0.9rem;margin-top:28px}
+    .toc a{display:block;padding:6px 0;color:var(--accent);text-decoration:none}
+    .tips{background:#fffbe6;padding:12px;border-radius:8px;border:1px solid #fff1bf;color:#624a00}
+    .codebox{background:#0b1220;color:#e6f1ef;padding:12px;border-radius:8px;font-family:monospace;overflow:auto}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Pondicherry Trip — A Soulful Journey</h1>
+        <div class="meta">3 days • Travel blog • Food, Culture & Beaches</div>
+      </div>
+      <nav>
+        <a href="#planning">Planning</a>
+        <a href="#day1">Day 1</a>
+        <a href="#day2">Day 2</a>
+        <a href="#day3">Day 3</a>
+        <a href="#food">Food</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <p><strong>Intro:</strong> Pondicherry — the French Riviera of the East — blends colonial charm, quiet beaches, and spiritual calm. This blog walks you through a 3-day itinerary, travel tips, cultural highlights, and plenty of photo spots.</p>
+    </div>
+
+    <div class="grid">
+      <article>
+        <section id="planning">
+          <h2>Planning the Trip</h2>
+          <p>The trip was planned for 3 days. Best visiting months are <strong>October to March</strong> for pleasant weather. We stayed in the French Quarter in a heritage guesthouse to soak up authenticity.</p>
+
+          <h3>How to get there</h3>
+          <ul class="check">
+            <li>By road: Connected by NH routes from Chennai & Tindivanam.</li>
+            <li>By rail: Puducherry station is nearby; taxis can reach White Town in 20–30 minutes.</li>
+            <li>By air: Chennai airport (2–3 hour drive).</li>
+          </ul>
+
+          <h3>Packing tips</h3>
+          <ul class="check">
+            <li>Light cotton clothes, sunscreen, sunglasses.</li>
+            <li>Comfortable shoes for walking the French Quarter.</li>
+            <li>Cash for small vendors and tips.</li>
+          </ul>
+        </section>
+
+        <section id="day1">
+          <h2>Day 1 — Arrival & White Town</h2>
+          <p><em>First impressions:</em> Clean streets, pastel buildings, a calm European vibe, and cafés with baked treats.</p>
+
+          <div class="img-placeholder">[Hero photo: French Quarter street — add image]</div>
+
+          <h3>Places visited</h3>
+          <ul>
+            <li><strong>French War Memorial</strong> — quiet tribute and a good morning walk spot.</li>
+            <li><strong>Bharathi Park</strong> — shaded, great for photos.</li>
+            <li><strong>Raj Niwas</strong> — colonial residence (external view).</li>
+          </ul>
+
+          <h3>Café & evening</h3>
+          <p>We enjoyed croissants, baguettes and coffee at a lane-side French café. Evening was spent at <strong>Rock Beach</strong> watching the sunset and enjoying local snacks.</p>
+        </section>
+
+        <section id="day2">
+          <h2>Day 2 — Spiritual & Cultural</h2>
+          <p>Day two focused on inner calm and culture.</p>
+
+          <h3>Sri Aurobindo Ashram</h3>
+          <p>A place for quiet reflection — respectful dress and maintenance of silence are recommended.</p>
+
+          <h3>Auroville & the Matrimandir</h3>
+          <p>Auroville's Matrimandir is the spiritual core — book entry / visitor rules in advance if you plan to enter the inner chamber.</p>
+
+          <div class="img-placeholder">[Photo: Matrimandir or Auroville greenery]</div>
+
+          <h3>Pondicherry Museum</h3>
+          <p>Nice collection: colonial artifacts, archaeological finds and local history.</p>
+        </section>
+
+        <section id="day3">
+          <h2>Day 3 — Beaches & Adventure</h2>
+          <h3>Paradise Beach</h3>
+          <p>Accessible by boat — soft sand and scenic views. Ideal for sunrise photography.</p>
+
+          <h3>Serenity Beach</h3>
+          <p>Popular with surfers. Good for sunbathing and casual food stalls nearby.</p>
+
+          <h3>Water Sports</h3>
+          <p>Kayaking and jet-skiing available seasonally. Try kayaking for a relaxed adventure on calm water.</p>
+
+          <div class="img-placeholder">[Beach photo: Paradise / Serenity Beach]</div>
+        </section>
+
+        <section id="food">
+          <h2>Food Journey</h2>
+          <p>Pondicherry is famous for fusion cuisine — French pastries alongside Tamil seafood curries.</p>
+          <ul>
+            <li>Croissants, baguettes, crepes</li>
+            <li>Seafood curry and local filter coffee</li>
+            <li>Street snacks along Goubert Avenue</li>
+          </ul>
+
+          <h3>Recommended cafés</h3>
+          <p>Try the cafés in White Town for breakfast and Mission Street for handicraft shopping and snacks.</p>
+        </section>
+
+        <section id="culture">
+          <h2>Local People & Culture</h2>
+          <p>The locals are friendly and welcoming. You’ll notice Tamil and French cultural traces in language, architecture, and food.</p>
+        </section>
+
+        <section id="tips">
+          <h2>Travel Tips</h2>
+          <div class="tips">
+            <ul>
+              <li>Best time: October–March.</li>
+              <li>Rent bicycles to explore White Town; many lanes are bicycle-friendly.</li>
+              <li>Respect local rules at spiritual centers (Aurobindo Ashram, Auroville).</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="conclusion">
+          <h2>Conclusion & Reflections</h2>
+          <p>This trip was more than sightseeing — it was about slowing down and enjoying simple moments: a long walk by the sea, a warm cup of coffee, and quiet afternoons under colonial balconies.</p>
+        </section>
+
+      </article>
+
+      <aside>
+        <div class="toc">
+          <h3>On this page</h3>
+          <a href="#planning">Planning</a>
+          <a href="#day1">Day 1 — White Town</a>
+          <a href="#day2">Day 2 — Auroville & Ashram</a>
+          <a href="#day3">Day 3 — Beaches</a>
+          <a href="#food">Food</a>
+          <a href="#tips">Tips</a>
+        </div>
+
+        <hr style="margin:12px 0;border:none;border-top:1px solid #eef4f3">
+
+        <h4>Quick facts</h4>
+        <ul>
+          <li>Language: Tamil & English (French influences)</li>
+          <li>Currency: INR</li>
+          <li>Power: 230V, 50Hz</li>
+        </ul>
+
+        <h4 style="margin-top:12px">Packing list</h4>
+        <ul>
+          <li>Sunscreen, hat</li>
+          <li>Comfortable sandals</li>
+          <li>Camera & charger</li>
+        </ul>
+
+        <div style="margin-top:12px" class="codebox">
+          <!-- Small embed: shareable itinerary -->
+          <strong>3-day Itinerary</strong>
+          <pre style="margin:6px 0">Day 1: White Town + Rock Beach
+Day 2: Ashram + Auroville + Museum
+Day 3: Paradise Beach + Serenity Beach
+          </pre>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p>Written from personal travel notes. © Pondicherry Trip Blog</p>
+    </footer>
+  </div>
+</body>
+  </html>
+  
